@@ -161,7 +161,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
 */
 
 // add event to all nav link
-for (let i = 0; i < navigationLinks.length; i++) {
+for (let i = 0; i < 2; i++) {
   navigationLinks[i].addEventListener("click", function () {
 
     for (let j = 0; j < pages.length; j++) {
@@ -171,6 +171,24 @@ for (let i = 0; i < navigationLinks.length; i++) {
         window.scrollTo(0, 0);
       } else {
         pages[j].classList.remove("active");
+        navigationLinks[i].classList.remove("active");
+      }
+    }
+
+  });
+}
+
+// add event to all nav link
+for (let i = 2; i < navigationLinks.length; i++) {
+  navigationLinks[i].addEventListener("click", function () {
+
+    for (let j = 0; j < pages.length; j++) {
+      if (this.innerHTML.toLowerCase() === pages[j+1].dataset.page) {
+        pages[j+1].classList.add("active");
+        navigationLinks[i].classList.add("active");
+        window.scrollTo(0, 0);
+      } else {
+        pages[j+1].classList.remove("active");
         navigationLinks[i].classList.remove("active");
       }
     }
