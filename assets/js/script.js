@@ -183,8 +183,8 @@ for (let i = 0; i < navigationLinks.length; i++) {
         navigationLinks[i-1].classList.add("active");
         window.scrollTo(0, 0);
       } else {
-        pages[i-1].classList.remove("active");
-        navigationLinks[i].classList.remove("active");
+        pages[i].classList.remove("active");
+        navigationLinks[i-1].classList.remove("active");
       }
     }
 
