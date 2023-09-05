@@ -179,6 +179,7 @@ for (let i = 0; i < 2; i++) {
 }
 
 // add event to all nav link
+/*
 for (let i = 2; i < navigationLinks.length; i++) {
   navigationLinks[i].addEventListener("click", function () {
 
@@ -195,6 +196,6 @@ for (let i = 2; i < navigationLinks.length; i++) {
 
   });
 }
-
+*/
 
 
