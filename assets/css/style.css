@@ -424,7 +424,7 @@ main {
 
 .contact-info :is(.contact-link, time, address) {
   color: var(--white-2);
-  font-size: var(--fs-7);
+  font-size: 10px; /* 10px, var(--fs-7) */ /* modified 2023-09-06 */
 }
 
 .contact-info address { font-style: normal; }
