@@ -317,7 +317,7 @@ main {
 .sidebar {
   margin-bottom: 15px;
   max-height: 112px;
-  overflow: scroll; /* hidden, scroll */
+  overflow: hidden;
   transition: var(--transition-2);
 }
 
@@ -1855,7 +1855,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .contact-info :is(.contact-link) {
     white-space: nowrap;
-    overflow: scroll; /* hidden, scroll */
+    overflow: hidden;
     text-overflow: ellipsis;
   }
 
