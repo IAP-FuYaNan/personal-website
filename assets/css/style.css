@@ -1792,7 +1792,9 @@ textarea.form-input::-webkit-resizer { display: none; }
    * REUSED STYLE
    */
 
-  .sidebar, article { width: auto; }
+  /* .sidebar, article { width: auto; } */
+  .sidebar { width: 500px; }
+  article { width: auto; }
 
   article { min-height: 100%; }
 
