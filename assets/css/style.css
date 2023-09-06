@@ -424,7 +424,7 @@ main {
 
 .contact-info :is(.contact-link, time, address) {
   color: var(--white-2);
-  font-size: 10px; /* 10px, var(--fs-7) */ /* modified 2023-09-06 */
+  font-size: 9px; /* 9px, var(--fs-7) */ /* modified 2023-09-06 */
 }
 
 .contact-info address { font-style: normal; }
@@ -1792,9 +1792,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * REUSED STYLE
    */
 
-  /* .sidebar, article { width: auto; } */
-  .sidebar { width: 500px; }
-  article { width: auto; }
+  .sidebar, article { width: auto; }
 
   article { min-height: 100%; }
 
@@ -1862,7 +1860,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .contact-info :is(.contact-link, time, address) {
-    --fs-7: 10px; /* original: 14px */
+    --fs-7: 9px; /* original: 14px */
     font-weight: var(--fw-300);
   }
 
