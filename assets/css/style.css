@@ -411,8 +411,8 @@ main {
 }
 
 .contact-info {
-  max-width: calc(100% - 20px); /* calc(100% - 46px) */
-  width: calc(100% - 20px); /* calc(100% - 46px) */
+  max-width: calc(100% - 46px); /* calc(100% - 46px) */
+  width: calc(100% - 46px); /* calc(100% - 46px) */
 }
 
 .contact-title {
@@ -1363,8 +1363,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   .contacts-list { gap: 20px; }
 
   .contact-info {
-    max-width: calc(100% - 30px);  /* calc(100% - 64px) */
-    width: calc(100% - 30px);  /* calc(100% - 64px) */
+    max-width: calc(100% - 64px);  /* calc(100% - 64px) */
+    width: calc(100% - 64px);  /* calc(100% - 64px) */
   }
 
 
