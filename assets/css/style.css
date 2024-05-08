@@ -1812,8 +1812,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .main-content {
-    min-width: 75%;
-    width: 75%;
+    min-width: 80%;
+    width: 80%;
     margin: 0;
   }
 
@@ -1824,7 +1824,6 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar {
-    width: 500px;
     position: sticky;
     top: 60px;
     max-height: max-content;
