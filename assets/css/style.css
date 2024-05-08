@@ -1764,7 +1764,7 @@ textarea.form-input::-webkit-resizer { display: none; }
  * responsive larger than 1250px screen
  */
 
-@media (min-width: 1250px) {
+@media (min-width: 1450px) {
 
   /**
    * RESET
@@ -1803,7 +1803,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   main {
-    max-width: 1200px;
+    max-width: 1400px;
     margin-inline: auto;
     display: flex;
     justify-content: center;
@@ -1812,8 +1812,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .main-content {
-    min-width: 80%;
-    width: 80%;
+    min-width: 75%;
+    width: 75%;
     margin: 0;
   }
 
